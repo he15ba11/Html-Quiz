@@ -79,6 +79,3 @@ $("#form").on("submit", function (e) {
     window.location.replace("pages/signIn.html");
   }
 });
-$("h3.sign-in").on("click", function () {
-  window.location.replace("pages/signIn.html");
-});
