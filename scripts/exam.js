@@ -141,7 +141,7 @@ const progressFill = document.getElementById("progressFill");
 
         function fillProgressBar() {
           if (progress <= 100) {
-              progress += 2;
+              progress += 1;
               progressFill.style.width = `${progress}%`;
 
               if (progress <= 70) {
